@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Docker</title>
+    <script type="text/javascript" src="template_bs4/vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="template_bs4/1.js"></script>
+	<link rel="stylesheet" href="template_bs4/vendor/bootstrap.css">
+	<link rel="stylesheet" href="template_bs4/vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="template_bs4/1.css">
+</head>
+<body>
+    <section>
+    	<h2 class="text-xs-center  btn-success">Tóm tắt về Docker</h2>
+    	<div class="container">
+    		<div class="row">
+    			<div class="noidung text-center">
+    				<h2 class="chuto">1.Docker</h2>
+					<p class="chunho">docker là công cụ để đóng gói và chạy các ứng dụng, là phần mềm mã nguồn mở giúp tạp ra các container để phát triển và triển khai các ứng dụng.</p>
+    			</div>
+    			<div class="noidung text-center">
+    				<h2 class="chuto">2.Docker Image</h2>
+					<p class="chunho">Image trong docker là những phần mềm được đóng gói và quản lý bởi docker. Các image chỉ có thể đọc không thể sửa đổi. Khi image được docker khởi chạy thì phiên bản thực thi của image được gọi là container.</p>
+    			</div>
+    			<div class="noidung text-center">
+    				<h2 class="chuto">3.Docker Container</h2>
+					<p class="chunho">Docker container là máy ảo chứa môi trường phần mềm. Được cấu thành từ image.</p>
+    			</div>
+    			<div class="noidung text-center">
+    				<h2 class="chuto">4.Lợi ích của Docker</h2>
+    				<p class="chunho">– Giảm deployment time. Việc setup chỉ thực hiện một lần, đóng gói và có thể ‘ship’ ra nhiều instance trên nhiều môi trường khác nhau.</p>
+    				<p class="chunho">– Tăng tính nhất quán, đồng bộ giữa các instance, các môi trường vì giảm vấn đề thiếu step hay cách làm có khác một chút ít khi lặp lại việc cài đặt.</p>
+    				<p class="chunho">– Tăng tính độc lập của các dự án, ứng dụng, không còn lo vấn đề lib confliction. Nhờ đó việc sửa chửa, cải tiến, nâng cấp hệ thống nhanh chóng và an toàn hơn.</p>
+    				<p class="chunho">– Dễ dàng hơn nhiều (so với máy ảo) cho việc auto scale khi load/traffic lên cao.</p>
+    			</div>
+    			<div class="noidung text-center">
+    				<h2 class="chuto">5.Docker Compose</h2>
+					<p class="chunho">Docker-compose là công cụ định nghĩa và khởi chạy ứng dụng docker đa container.</p>
+    			</div>
+    			<div class="noidung text-center">
+    				<h2 class="chuto">6. Lợi ích Docker Compose</h2>
+						<ul class="danhsach">
+							<li>Thiết lập và cấu hình đa môi trường container hoàn toàn độc lập nhau trên cùng một máy chủ</li>
+							<li>Bảo lưu các phân vùng bộ nhớ khi container được tạo ra</li>
+							<li>Chỉ tạo lại container nào có config thay đổi trong khi vẫn bảo lưu dữ liệu của container</li>
+							<li>Cho phép định nghĩa các biến variables trong file YAML để tùy chỉnh cho các môi trường dev và product.</li>
+						</ul>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+</body>
+</html>
